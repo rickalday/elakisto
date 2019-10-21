@@ -1,0 +1,12 @@
+.customize-control-repeater .repeater-fields .repeater-row .repeater-field-radio-image label:nth-of-type(3n):after {
+    content: '';
+    display: block;
+}
+
+.customize-control-repeater .repeater-fields .repeater-row div.repeater-field.repeater-field-radio-image input:checked + label img {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    outline: 1px solid #3498DB;
+    background-color: #EBF7FF;
+}
